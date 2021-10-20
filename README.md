@@ -18,11 +18,13 @@ Create an UI web application that retrieves and displays products from the https
 - State Managing with Vuex
 - Typescript
 - Bootstrap
+- Loading Spinner
 - Pagination and Products per page Option
 - Fetch API
 - Basic Error Catching from the API
 
 ## Impementation
+
 ```bash
 .src
 ├
@@ -113,7 +115,7 @@ These are topics that I am not related to (yet), but that I would love to learn 
 
 ## Installing
 ```
-npm run install
+npm install
 npm run serve
 ```
 
