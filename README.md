@@ -6,7 +6,7 @@
 
 This is the test for Popsy.app
 
-- see the demo [here](https://yourcoach.web.app)
+- see the demo [here](https://js-test-rho.vercel.app/)
 
 ## Goal
 Create an UI web application that retrieves and displays products from the https://fakestoreapi.com/.
@@ -22,6 +22,7 @@ Create an UI web application that retrieves and displays products from the https
 - Pagination and Products per page Option
 - Fetch API
 - Basic Error Catching from the API
+- Deployed on Vercel
 
 ## Impementation
 
