@@ -36,6 +36,7 @@ Create an UI web application that retrieves and displays products from the https
 ```
  The project structure on gitHub.
  Following a clear separation of concerns like the router, the store, pages...
+
  Redirects for the router are separated on pages:
  ```bash
  ├── pages
@@ -66,7 +67,7 @@ Create an UI web application that retrieves and displays products from the https
         └── types.ts
  ```
 
-types.ts defines the TypeScript Interface for the type fetch from the API
+types.ts defines the TypeScript Interface for the data-type fetched from the BackEnd
 ```javascript I'm A tab
 export interface Product {
     id: null;
@@ -101,19 +102,19 @@ export default class ProductDetails extends Vue {
 Code is cleaner and, most important, Vue Class Component is TypeScript friendly ;)
 
 
-## Basic Error Catching from the API
-Right now only thrown erros from the API are catched and printed to the console.
-It would be easy to add a module to the State Manager to store the errors and bring information for the to user through nicely design dialogs, aswell as control other behaviors in response.
+## Basic Error Catching from the Backend
+Right now only thrown erros from the Backend are catched and loged to the console.
+It would be easy to add a module to the State Manager to store the errors and control any behavior in response, aswell as bring information to the user through nicely designed dialogs, for example.
 
 
 ## About Unit Testing and RxJS
-These are topics I am not related to, but that I would love to learn.
+These are topics that I am not related to (yet), but that I would love to learn about.
 
 
 ## Installing
 ```
 npm run install
-nrm run serve
+npm run serve
 ```
 
 
