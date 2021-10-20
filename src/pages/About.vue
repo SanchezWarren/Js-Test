@@ -21,7 +21,6 @@ export default class ProductDetails extends Vue {}
 <style scoped>
 .card {
   position: relative;
-  top: -15vh;
   border: 0;
   border-radius: 0.25rem;
   background-color: white;

@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="d-flex flex-column justify-content-between">
+  <div id="app" class="">
     <nav class=" navbar navbar-expand navbar-light shadow p-3 mb-5 bg-white">
       <div class="container">
         <a class="navbar-brand" href="/products">
@@ -13,7 +13,7 @@
       </div>
     </nav>
 
-    <div class="container mt-3">
+    <div class="comp-container container mt-3">
       <router-view />
     </div>
     <footer class="text-center text-black-50 shadow p-3 bg-white">MyShop - 2021</footer>
@@ -34,6 +34,10 @@ body {
 
 body,
 #app {
-  min-height: 100vh;
+  min-height: 100%;
+}
+
+.comp-container {
+  min-height: 77vh;
 }
 </style>

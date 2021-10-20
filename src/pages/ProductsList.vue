@@ -167,4 +167,10 @@ export default class ProductsList extends Vue {
   grid-gap: 3vw;
   padding-left: 0;
 }
+
+@media (max-width: 555px) {
+  .controls {
+    flex-direction: column;
+  }
+}
 </style>
