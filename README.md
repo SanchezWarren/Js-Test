@@ -1,4 +1,4 @@
-# MyShop JS Interview Test
+# JS Interview Test
 ##### by  Miguel Pájaro
 #
 
