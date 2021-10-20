@@ -4,7 +4,7 @@
       <div class="wrap">
         <h4 class="mb-3">MyShop JS Interview Test</h4>
         <h5>Miguel Pájaro</h5>
-        <a href="https://github.com/SanchezWarren" class="mb-2">gitHub</a>
+        <a href="https://github.com/SanchezWarren" class="mb-2">gitHub repository</a>
         <p>mglpajaro@gmail.com</p>
       </div>
     </div>
