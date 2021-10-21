@@ -15,7 +15,7 @@
           <button
             type="button"
             class="btn btn-left btn-light btn-number list-group-item p-2"
-            @click="perPage--"
+            @click="incrementPage(-1)"
           >
             -
           </button>
@@ -28,7 +28,7 @@
           <button
             type="button"
             class="btn btn-right btn-light btn-number list-group-item p-2"
-            @click="perPage++"
+            @click="incrementPage(1)"
           >
             +
           </button>
@@ -122,6 +122,13 @@ export default class ProductsList extends Vue {
   displayedPosts() {
     return this.paginate(this.products);
   }
+
+  incrementPage(i: number) {
+    //per page always [1-20]
+    (i < 0 && this.perPage > 1) || (i > 0 && this.perPage < 20) 
+    ? (this.perPage += i) : null;
+  }
+
   @Watch("perPage")
   onPrivateChange() {
     this.setPages();
